@@ -7,7 +7,7 @@ The Overcall app is at [https://app.overcall.io](https://app.overcall.io). This 
 From a connected wallet to your first payout:
 
 1. **Connect a wallet.** Overcall is open to everyone, with no account and no invite code. The app asks your wallet to switch to **Robinhood Chain** mainnet (chain ID 4663) and to add the network if it is not there yet. Keep a little ETH on Robinhood Chain for gas (see [Wallet and network](#wallet-and-network)).
-2. **Get $OVER.** You take positions with the **$OVER** in your wallet. Buy it on Uniswap on Robinhood Chain, where you swap VIRTUAL for $OVER. If you stake 100,000 $OVER or more, you can also open positions in $USDG (see [Staking](13-staking.md)).
+2. **Get $OVER.** You take positions with the **$OVER** in your wallet. Buy it on Uniswap on Robinhood Chain, where you swap ETH for $OVER. If you stake 100,000 $OVER or more, you can also open positions in $USDG (see [Staking](13-staking.md)).
 3. **Pick a market and draw.** Choose an open market, then drag on the chart to set your angle, width and duration. The ticket prices both sides of your channel before you commit (see [The terminal](#the-terminal)).
 4. **Take a side, open.** Back your channel to **Survive** (it holds every wall to the end) or **Breach** (a wall breaks first). Your entry is bound to a signed price report, so nobody picks your entry price; your multiplier is final when it binds.
 5. **Close, get paid.** Survive collects the full multiplier if the channel holds to the end, and is liquidated at 0 if a wall is touched; that same touch pays Breach in full. Either side can close early for a known amount, and the vault pays you the instant it resolves, unless trading is paused for a review: then a win pays your stake at once and holds the rest for the review.
@@ -74,7 +74,7 @@ Overcall runs on **Robinhood Chain** mainnet and is open to everyone: no account
 | What you need | How to get it |
 | --- | --- |
 | Gas | Every transaction, from opening a position to staking or claiming, costs a small amount of **ETH on Robinhood Chain**, the network's gas. Keep a little ETH in the same wallet as your $OVER; the app tells you when it runs low. |
-| $OVER | Token address `0x6245Db7f52379bD9757c9DdcE6519768FfaB3a4F`. $OVER trades on **Uniswap on Robinhood Chain**, paired with VIRTUAL: you swap VIRTUAL for $OVER ([open the swap on Uniswap](https://app.uniswap.org/swap?inputCurrency=0xc6911796042b15d7Fa4F6CDe69e245DdCd3d9c31&outputCurrency=0x6245Db7f52379bD9757c9DdcE6519768FfaB3a4F&chain=robinhood)). The app's **Buy $OVER** link opens that swap in a new tab. |
+| $OVER | Token address `0x6245Db7f52379bD9757c9DdcE6519768FfaB3a4F`. $OVER trades on **Uniswap on Robinhood Chain**, you swap ETH for $OVER ([open the swap on Uniswap](https://app.uniswap.org/swap?chain=robinhood&inputCurrency=NATIVE&outputCurrency=0x6245Db7f52379bD9757c9DdcE6519768FfaB3a4F)). The app's **Buy $OVER** link opens that swap in a new tab. |
 | $USDG | Global Dollar on Robinhood Chain, at `0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168`. |
 | $USDG access | $OVER positions are open to everyone. Positions in $USDG need **a stake of at least 100,000 $OVER** on Robinhood Chain mainnet, from the same wallet: stake in the Staking & Airdrop tab of the dashboard, and your stake is recognized within about 5 minutes. If it falls below 100,000 $OVER, for example after an unstake, new $USDG positions stop within about 30 minutes, and positions already open run to the end (see [Staking](13-staking.md)). |
 

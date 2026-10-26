@@ -50,7 +50,7 @@ Robinhood Chain mainnet (chain ID 4663), an Arbitrum-based L2: a blockchain netw
 
 ### Where do I buy $OVER?
 
-On Uniswap on Robinhood Chain, where you swap VIRTUAL for $OVER; the app's Buy $OVER link opens that swap. Check the token address first: $OVER is `0x6245Db7f52379bD9757c9DdcE6519768FfaB3a4F`. See [Wallet and network](15-using-the-app.md#wallet-and-network).
+On Uniswap on Robinhood Chain, where you swap ETH for $OVER; the app's Buy $OVER link opens that swap. Check the token address first: $OVER is `0x6245Db7f52379bD9757c9DdcE6519768FfaB3a4F`. See [Wallet and network](15-using-the-app.md#wallet-and-network).
 
 ### Can I try it for free first?
 

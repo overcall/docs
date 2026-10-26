@@ -6,7 +6,7 @@ The questions worth asking, answered straight.
 
 ### What can I trade?
 
-Crypto: BTC, ETH, BNB, SOL, HYPE and VIRTUAL today, with XRP and DOGE coming soon. Tokenized stocks (NVDA, AAPL, MSFT, GOOGL, AMZN, META, HOOD, TSLA) are coming soon too. Same rules and payout table across all of them. Positions are in $OVER, or in $USDG if you stake 100,000 $OVER or more. See [Markets](03-parameters-and-markets.md).
+Crypto: BTC, ETH, BNB, SOL, HYPE, VIRTUAL and CASHCAT today, with XRP and DOGE coming soon. Tokenized stocks (NVDA, AAPL, MSFT, GOOGL, AMZN, META, HOOD, TSLA) are coming soon too. Same rules and payout table across all of them. Positions are in $OVER, or in $USDG if you stake 100,000 $OVER or more. See [Markets](03-parameters-and-markets.md).
 
 ### Do I win only if the market goes up?
 

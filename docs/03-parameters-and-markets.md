@@ -51,11 +51,11 @@ Crypto and tokenized stocks, all on the same rails and the same payout table. Be
 
 | Group | Markets | Hours | Status |
 | --- | --- | --- | --- |
-| Crypto | BTC · ETH · BNB · SOL · HYPE · VIRTUAL | 24/7 | open on mainnet, $OVER and $USDG positions |
+| Crypto | BTC · ETH · BNB · SOL · HYPE · VIRTUAL · CASHCAT | 24/7 | open on mainnet, $OVER and $USDG positions |
 | Crypto | XRP · DOGE | 24/7 | soon |
 | Tokenized stocks | NVDA · AAPL · MSFT · GOOGL · AMZN · META · HOOD · TSLA | market hours | soon |
 
-BTC, ETH, BNB, SOL, HYPE and VIRTUAL are open on mainnet, each taking $OVER and $USDG positions; XRP, DOGE and the tokenized stocks are coming soon. Crypto markets are open around the clock. Tokenized stocks follow their regular trading session; outside market hours a stock market pauses.
+BTC, ETH, BNB, SOL, HYPE, VIRTUAL and CASHCAT are open on mainnet, each taking $OVER and $USDG positions; XRP, DOGE and the tokenized stocks are coming soon. Crypto markets are open around the clock. Tokenized stocks follow their regular trading session; outside market hours a stock market pauses.
 
 Every market is priced by the same decentralized feed and settles under the same contract, so nothing about the rules changes when you switch assets, only the volatility unit (range) does. New markets can be added without new rules, because any market the oracle can price, the vault can take.
 

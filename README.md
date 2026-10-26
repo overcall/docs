@@ -22,7 +22,7 @@ You trade the **path** of a price, not just its direction. A neutral vault in yo
 | --- | --- |
 | **Network** | Robinhood Chain mainnet, an Arbitrum-based L2 (chain ID 4663) |
 | **Products** | Channels (draw a channel on a live price and take a side) and Prediction (back or fade another player's live channel) |
-| **Markets** | BTC, ETH, BNB, SOL, HYPE and VIRTUAL live; XRP, DOGE and tokenized stocks coming soon |
+| **Markets** | BTC, ETH, BNB, SOL, HYPE, VIRTUAL and CASHCAT live; XRP, DOGE and tokenized stocks coming soon |
 | **Prices** | Chainlink Data Streams, signed reports verified onchain |
 | **Counterparty** | A neutral vault per position currency, no order book |
 | **Position currencies** | $OVER for everyone; $USDG with a stake of 100,000 $OVER or more |

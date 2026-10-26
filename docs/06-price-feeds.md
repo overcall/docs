@@ -36,6 +36,7 @@ Each market on Robinhood Chain mainnet is registered onchain with its Data Strea
 | SOL/USD | `0x0003b778d3f6b2ac4991302b89cb313f99a42467d6c9c5f96f57c29c0d2bc24f` |
 | HYPE/USD | `0x0003d34539af562867c3cb309b59efccf40e74b404fb415eeb7699d61322aed9` |
 | VIRTUAL/USD | `0x000385c20fe1d88dfbf4629f188bf03ee004a034c844ec31dbf57d197adade89` |
+| CASHCAT/USD | `0x00037b92e02f80001b1f1f0c6d1941652ac7ea0eed0fc9139bee350619083a07` |
 
 <sub>Source: [docs.overcall.io/feeds](https://docs.overcall.io/feeds)</sub>
 

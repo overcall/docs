@@ -88,7 +88,7 @@ Shipped and proven on the testnet before the TGE: the full engine, the terminal,
 - [ ] **Staking rewards transformation**: staking earns a share of platform fees: 25% of the profit fees from $OVER positions go to stakers `In progress`
 - [ ] **New platform product**: built on the same rails
 - [ ] **Stock asset class**: the tokenized stock class launches on mainnet
-- [ ] **Crypto expansion**: the crypto class expands with more assets
+- [ ] **Crypto expansion**: the crypto class expands with more assets, starting with CASHCAT, added Oct 25 `In progress`
 - [ ] **Multichain**: platform and token expand to a second blockchain
 - [ ] **Agent playbook**: developer reference, API surface and quickstarts for AI agents
 - [ ] **Agent integrations**: first ecosystem agents trading on the platform

@@ -32,7 +32,7 @@ Every term in one place, in alphabetical order.
 | **Robinhood Chain** | The network Overcall runs on: an Arbitrum-based L2, chain ID 4663 on mainnet. Gas is paid in ETH. |
 | **Royalty** | The channel creator's cut of every winning prediction on their channel: 15% of its profit fee, in $OVER and $USDG. It accrues in the prediction's currency and is claimed with Claim all in User space; $USDG royalty is swapped into $OVER when you claim it. |
 | **Spread (δ)** | The platform's transparent, published margin, the same for both sides. There is no hidden odds edge. |
-| **Staking** | Putting $OVER in the staking contract on mainnet, non-custodial and with instant unstake: 25% of the profit fees from $OVER positions go to stakers, and 100,000 $OVER or more unlocks $USDG positions. |
+| **Staking** | Putting $OVER in the staking contract on mainnet, non-custodial and with instant unstake: 25% of the fees from $OVER positions go to stakers, streamed in $OVER over 24 hours, and 100,000 $OVER or more unlocks $USDG positions. |
 | **Survival probability (P)** | The model's chance the channel survives to the end; prices both sides. |
 | **Survive** | Backing a channel to hold every wall to the end; wins if no wall is touched. |
 | **Testnet demo** | The free practice version of Overcall on Robinhood Chain's test network (chain ID 46630), with tOVER and tUSDG, test tokens that have no value. |

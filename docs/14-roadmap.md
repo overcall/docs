@@ -68,7 +68,7 @@ Shipped and proven on the testnet before the TGE: the full engine, the terminal,
 
 - [x] **$OVER TGE**: token generation event on Virtuals; $OVER is live on Robinhood Chain mainnet at [0x6245…3a4F](https://robin.etherscan.io/address/0x6245Db7f52379bD9757c9DdcE6519768FfaB3a4F)
 - [x] **Airdrop campaign**: launched together with the TGE; points closed Oct 19, 12:00 UTC (see [Genesis airdrop](https://docs.overcall.io/airdrop))
-- [x] **Staking on mainnet**: stake $OVER for the airdrop, and 100,000 $OVER or more to unlock $USDG positions
+- [x] **Staking on mainnet**: stake $OVER for the airdrop, and 100,000 $OVER or more to unlock $USDG positions; this first contract stays for withdrawals only once the new staking contract launches
 - [x] **$USDG positions**: positions in $USDG alongside $OVER, for wallets with 100,000 $OVER or more staked
 - [x] **Data Streams on mainnet**: Chainlink Data Streams integration for Robinhood mainnet
 - [x] **Partnerships**: first ecosystem partnerships and joint campaigns
@@ -85,7 +85,7 @@ Shipped and proven on the testnet before the TGE: the full engine, the terminal,
 ## Post-mainnet (3-month horizon)
 
 - [ ] **Airdrop distribution**: final allocations published, claiming live with daily vesting over 15 days, until Nov 19 `In progress`
-- [ ] **Staking rewards transformation**: staking earns a share of platform fees: 25% of the profit fees from $OVER positions go to stakers `In progress`
+- [ ] **Staking rewards transformation**: staking earns a share of platform fees: a new staking contract streams 25% of the fees from $OVER positions to stakers in $OVER, and 25% of the fees from $USDG positions is swapped into $OVER (buybacks) `In progress`
 - [ ] **New platform product**: built on the same rails
 - [ ] **Stock asset class**: the tokenized stock class launches on mainnet
 - [ ] **Crypto expansion**: the crypto class expands with more assets

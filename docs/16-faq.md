@@ -28,7 +28,7 @@ You trade against a neutral onchain vault in your position's currency, like a pe
 
 ### What are the fees?
 
-Two, both published. The **open fee**, the greater of 1% of your deposit and a fixed minimum (20 $OVER, or 0.05 USDG on a $USDG position), is carved out of the deposit at open, win or lose. The **profit fee** is 10% of the profit on a winning close, and 15% of it goes to the channel's creator as a royalty when the winning position is someone else's. An early close also carries a 5% penalty on its mark-to-market value. 25% of the profit fees from $OVER positions go to $OVER stakers. There is no edge hidden in the multiplier. See [Parameters and limits](03-parameters-and-markets.md).
+Two, both published. The **open fee**, the greater of 1% of your deposit and a fixed minimum (20 $OVER, or 0.05 USDG on a $USDG position), is carved out of the deposit at open, win or lose. The **profit fee** is 10% of the profit on a winning close, and 15% of it goes to the channel's creator as a royalty when the winning position is someone else's. An early close also carries a 5% penalty on its mark-to-market value. 25% of the open and profit fees from $OVER positions, net of the royalty, go to $OVER stakers, and 25% of the same fees from $USDG positions is swapped into $OVER (buybacks). There is no edge hidden in the multiplier. See [Parameters and limits](03-parameters-and-markets.md).
 
 ### How is my multiplier set?
 
@@ -72,7 +72,7 @@ $OVER is the token every product is built around, and it launched on Virtuals. F
 
 ### What do stakers earn?
 
-A share of real platform revenue: 25% of the profit fees from $OVER positions go to stakers. Claiming rewards is not live yet, and the projected APR shows on the Staking page once it can be worked out from live fees. Unstake any time, instantly. See [Staking](13-staking.md).
+A share of real platform revenue: 25% of the fees from $OVER positions, the open fee and the profit fee net of the creator royalty, paid in $OVER and streamed over 24 hours to whoever is staked meanwhile, pro rata to stake and time. Claim rewards any time or add them to your stake. Rewards come from the new staking contract only, so stakes in the old one need to move. Unstake any time, instantly. See [Staking](13-staking.md).
 
 ### When can I claim the Genesis airdrop?
 

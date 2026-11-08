@@ -6,13 +6,13 @@ $OVER is the core asset of the platform: you need it to take a position. Open po
 
 The platform and the token are not two things that share a name: they are one system, and they grow together by design.
 
-That design is a loop. More $OVER volume deepens the $OVER vault, a deeper vault clears bigger payouts and more volume, and platform fees route back into liquidity, so real revenue becomes deeper payouts. In an $OVER position you play in $OVER and win $OVER, and the vault that settles those wins holds $OVER too. 25% of the profit fees from $OVER positions go to staking rewards, and 25% of the profit fees from $USDG positions go to $OVER buybacks.
+That design is a loop. More $OVER volume deepens the $OVER vault, a deeper vault clears bigger payouts and more volume, and platform fees route back into liquidity, so real revenue becomes deeper payouts. In an $OVER position you play in $OVER and win $OVER, and the vault that settles those wins holds $OVER too. 25% of the fees from $OVER positions go to staking rewards, paid in $OVER, and 25% of the fees from $USDG positions is swapped into $OVER (buybacks).
 
 ```mermaid
 flowchart LR
-    OP["$OVER positions"] -->|"25% of profit fees<br/>(staking rewards)"| ST["$OVER stakers"]
+    OP["$OVER positions"] -->|"25% of fees<br/>(staking rewards)"| ST["$OVER stakers"]
     ST -->|"a stake of 100,000 $OVER<br/>or more unlocks"| UP["$USDG positions"]
-    UP -->|"25% of profit fees"| BB["$OVER buybacks"]
+    UP -->|"25% of fees<br/>swapped into $OVER"| BB["$OVER buybacks"]
 ```
 
 ### The flywheel
@@ -52,11 +52,11 @@ The $OVER vault that pays $OVER wins holds $OVER, so the token directly backs se
 
 ### Stake: share in fees, unlock $USDG
 
-Stakers earn a share of platform fees: 25% of the profit fees from $OVER positions go to them. A stake of 100,000 $OVER or more also unlocks $USDG positions. See [Staking](13-staking.md).
+Stakers earn a share of platform fees: 25% of the fees from $OVER positions go to them, paid in $OVER. A stake of 100,000 $OVER or more also unlocks $USDG positions. See [Staking](13-staking.md).
 
 ### A demand engine and a supply sink
 
-The same design pushes demand up and free float down. Usage forces $OVER to be held and moved, while $OVER held in the vault and $OVER staked are out of circulation. $USDG activity adds $OVER demand too, because $USDG positions require 100,000 $OVER or more staked. 25% of the profit fees from $USDG positions go to $OVER buybacks, and 25% of the profit fees from $OVER positions go to staking rewards. Real activity raises demand while the circulating supply trends lower.
+The same design pushes demand up and free float down. Usage forces $OVER to be held and moved, while $OVER held in the vault and $OVER staked are out of circulation. $USDG activity adds $OVER demand too, because $USDG positions require 100,000 $OVER or more staked. 25% of the fees from $USDG positions is swapped into $OVER (buybacks), and 25% of the fees from $OVER positions go to staking rewards. Real activity raises demand while the circulating supply trends lower.
 
 <sub>Source: [docs.overcall.io/over](https://docs.overcall.io/over), [docs.overcall.io/utility](https://docs.overcall.io/utility)</sub>
 

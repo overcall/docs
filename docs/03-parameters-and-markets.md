@@ -21,7 +21,7 @@ Every knob and every limit in one place, plain meaning first, with the exact val
 | Open fee | max(1%, fixed minimum) | the fixed minimum is 20 $OVER or 0.05 USDG; carved out of the deposit at open, win or lose; the payout multiplies the rest |
 | Profit fee | 10% of profit | charged on any payout above the stake, published beside the odds |
 | Creator royalty | 15% of the profit fee | paid to the channel's creator on every winning position others take on their channel, in that position's currency ($OVER or $USDG); $USDG royalty is swapped into $OVER when the creator claims it |
-| Stakers' share | 25% of $OVER profit fees | 25% of the profit fees from $OVER positions go to $OVER stakers (see [Staking](13-staking.md)) |
+| Stakers' share | 25% of $OVER fees | 25% of the open and profit fees from $OVER positions, net of the creator royalty, go to $OVER stakers, streamed in $OVER over 24 hours; 25% of the same fees from $USDG positions is swapped into $OVER (buybacks) (see [Staking](13-staking.md)) |
 | Early-close penalty | 5% | the discount on an early close's mark-to-market value |
 
 ### Terms per currency

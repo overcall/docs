@@ -30,7 +30,7 @@ The Staking page shows your rewards in its **Claim rewards** tab, next to Stake 
 
 ## Moving from the old staking contract
 
-Rewards are paid by a new staking contract; its mainnet address will be published on [Contracts and addresses](09-contracts.md#addresses) at launch. The first staking contract, [0x2165…b306](https://robin.etherscan.io/address/0x2165E659406F6B4F122F10A540B634252249b306), has no reward logic and cannot be upgraded, so it stays for withdrawals only: you can still unstake from it at any time, but not stake into it. To earn rewards, move your stake: unstake from the old contract and stake the same $OVER into the new one, two transactions.
+Rewards are paid by a new staking contract; its mainnet address will be published on [Contracts and addresses](09-contracts.md#addresses) at launch. The first staking contract, [0x2165…b306](https://robin.etherscan.io/address/0x2165E659406F6B4F122F10A540B634252249b306), has no reward logic and cannot be upgraded, so it stays for withdrawals only: you can still unstake from it at any time, but not stake into it. To earn rewards, move your stake: unstake from the old contract and stake the same $OVER into the new one, two transactions. Stakes in both contracts count toward the 100,000 $OVER for $USDG positions, so moving keeps your access; only between the two transactions is your total briefly lower.
 
 ## Staking 100,000 $OVER unlocks $USDG positions
 

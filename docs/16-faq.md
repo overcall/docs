@@ -90,7 +90,7 @@ Positions in $USDG, the second currency next to $OVER. A $USDG position takes it
 
 ### Who can open $USDG positions?
 
-Wallets with at least 100,000 $OVER staked on Robinhood Chain mainnet, from the same address. A new stake is recognized within about 5 minutes. If your stake falls below 100,000 $OVER, for example after an unstake, new $USDG positions stop within about 30 minutes; positions already open run to the end. See [Staking](13-staking.md).
+Wallets with at least 100,000 $OVER staked on Robinhood Chain mainnet, from the same address; stakes in the old and the new staking contract both count. A new stake is recognized within about 5 minutes. If your stake falls below 100,000 $OVER, for example after an unstake, new $USDG positions stop within about 30 minutes; positions already open run to the end. See [Staking](13-staking.md).
 
 ### How do I get tUSDG?
 

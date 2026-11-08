@@ -9,7 +9,7 @@ Every knob and every limit in one place, plain meaning first, with the exact val
 | Angle | −2.4 … +2.4 | trend lean (the channel's slope); steeper drifts faster toward a wall |
 | Width | ±2.5× … ±38× range (±19× on VIRTUAL) | wall distance (the channel's height), in range; tighter is harder to survive |
 | Duration | 15m … 24h | position length in the app's ticket (the contract accepts from 2m); longer gives the price more time to reach a wall |
-| Currency | $OVER or $USDG | the currency of the deposit, the fees and the payout; $USDG positions need a stake of 100,000 $OVER or more |
+| Currency | $OVER or $USDG | the currency of the deposit, the fees and the payout; anyone can open either, no stake needed |
 | Position size | per currency | the minimum and maximum deposit (see [Terms per currency](#terms-per-currency) below) |
 | Survival probability P | 0 … 1 | the model's chance the channel survives to the end; prices both sides |
 | Spread δ | published | the platform's transparent margin, the same number for both sides (there is no hidden edge) |
@@ -30,14 +30,11 @@ A position opens in $OVER or $USDG, and a few terms are set per currency. The fe
 
 | Term | $OVER | $USDG |
 | --- | --- | --- |
-| Who can open | everyone | wallets with 100,000 $OVER or more staked (see [Staking](13-staking.md)) |
+| Who can open | everyone | everyone, no stake needed |
 | Position size | 500 … 200,000 $OVER | 0.50 … 50.00 USDG |
 | Open fee | max(1%, 20 $OVER) | max(1%, 0.05 USDG) |
 | Multiplier cap | 25× | 10× |
 | Daily loss limit | 5% of the vault's capital | 50% of the vault's capital |
-
-> [!NOTE]
-> $USDG positions need 100,000 $OVER or more staked on Robinhood Chain mainnet, from the same wallet. A new stake is recognized within about 5 minutes. If the stake falls below 100,000 $OVER, new $USDG positions stop within about 30 minutes, and positions already open run to the end.
 
 ### Range: the volatility unit
 

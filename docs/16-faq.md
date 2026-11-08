@@ -6,7 +6,7 @@ The questions worth asking, answered straight.
 
 ### What can I trade?
 
-Crypto: BTC, ETH, BNB, SOL, HYPE and VIRTUAL today, with XRP and DOGE coming soon. Tokenized stocks (NVDA, AAPL, MSFT, GOOGL, AMZN, META, HOOD, TSLA) are coming soon too. Same rules and payout table across all of them. Positions are in $OVER, or in $USDG if you stake 100,000 $OVER or more. See [Markets](03-parameters-and-markets.md).
+Crypto: BTC, ETH, BNB, SOL, HYPE and VIRTUAL today, with XRP and DOGE coming soon. Tokenized stocks (NVDA, AAPL, MSFT, GOOGL, AMZN, META, HOOD, TSLA) are coming soon too. Same rules and payout table across all of them. Positions are in $OVER or $USDG, with no stake needed. See [Markets](03-parameters-and-markets.md).
 
 ### Do I win only if the market goes up?
 
@@ -58,11 +58,11 @@ Yes. The testnet demo runs the same app and rules with free test tokens (tOVER f
 
 ### Do I have to verify my identity?
 
-No. $OVER positions need only a connected wallet; $USDG positions also need 100,000 $OVER or more staked from the same wallet. Connecting X is optional and sets how you appear (your handle and avatar on the leaderboard, feed and share cards). It never gates playing and is never custody of anything.
+No. $OVER and $USDG positions need only a connected wallet. Connecting X is optional and sets how you appear (your handle and avatar on the leaderboard, feed and share cards). It never gates playing and is never custody of anything.
 
 ### Can AI agents trade? Is there an API?
 
-Yes. Everything is a contract call plus a signed report and a public GraphQL API, so agents can trade and read without a proprietary API; a $USDG position also takes an entry permit from the same public API. Where to find the ABI and the API is on [Developers and agents](10-developers.md).
+Yes. Everything is a contract call plus a signed report and a public GraphQL API, so agents can trade and read without a proprietary API. Where to find the ABI and the API is on [Developers and agents](10-developers.md).
 
 ## $OVER, staking and the airdrop
 
@@ -86,19 +86,19 @@ No. Only $OVER positions of 1,000 or more counted toward the testnet activity an
 
 ### What are $USDG positions?
 
-Positions in $USDG, the second currency next to $OVER. A $USDG position takes its deposit, fees and payout in $USDG, against a separate $USDG vault, on the same channels and at the same fee percentages. They are open to wallets with 100,000 $OVER or more staked. See [Opening a position](02-channels.md).
+Positions in $USDG, the second currency next to $OVER. A $USDG position takes its deposit, fees and payout in $USDG, against a separate $USDG vault, on the same channels and at the same fee percentages. They are open to everyone, no stake needed. See [Opening a position](02-channels.md).
 
 ### Who can open $USDG positions?
 
-Wallets with at least 100,000 $OVER staked on Robinhood Chain mainnet, from the same address; stakes in the old and the new staking contract both count. A new stake is recognized within about 5 minutes. If your stake falls below 100,000 $OVER, for example after an unstake, new $USDG positions stop within about 30 minutes; positions already open run to the end. See [Staking](13-staking.md).
+Anyone: no stake is needed.
 
 ### How do I get tUSDG?
 
-tUSDG is the testnet twin of $USDG, for the testnet demo. Stake 100,000 $OVER or more on Robinhood Chain mainnet, and once your stake is recognized (within about 5 minutes), claim it from the faucet in the Balance tab of the testnet app, next to tOVER. See [Testnet demo](15-using-the-app.md#testnet-demo).
+tUSDG is the testnet twin of $USDG, for the testnet demo. Claim it from the faucet in the Balance tab of the testnet app, next to tOVER. See [Testnet demo](15-using-the-app.md#testnet-demo).
 
 ### Can I predict in $USDG?
 
-Yes. The currency belongs to your position, not the channel, so with 100,000 $OVER or more staked you can back any live channel in $OVER or $USDG, whichever currency its creator used. See [Prediction](04-prediction.md).
+Yes. The currency belongs to your position, not the channel, so you can back any live channel in $OVER or $USDG, whichever currency its creator used. See [Prediction](04-prediction.md).
 
 ### Why does a $USDG position show a lower multiplier?
 

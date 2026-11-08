@@ -23,7 +23,7 @@ The principles the platform and the engine are built around. None of them are sl
 | **Exit on your terms** | Close any position early for a known amount, or hold it to the end. No opponent to wait for. |
 | **Fair by design** | Prices, positions, payouts and rules are public code. You replay the chain instead of trusting us. |
 | **Highly entertaining** | Fast, visual and genuinely fun to play. Reading a chart has never paid quite like this. |
-| **Built for humans and agents** | Every action is a contract call plus a signed price report, and a $USDG position also takes an entry permit from the public API, so anything a wallet can do, a program can do. |
+| **Built for humans and agents** | Every action is a contract call plus a signed price report, so anything a wallet can do, a program can do. |
 | **Proven onchain** | Every entry, settlement and payout is an onchain event, verifiable by anyone, forever. |
 
 ## One engine, every product

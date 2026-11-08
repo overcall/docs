@@ -6,7 +6,7 @@ Your walls, your rules: the first product on Overcall, and the fastest way to se
 
 You draw a channel on a live price and take a side: **Survive** if it holds every wall to the end, or **Breach** if a wall breaks first. Priced by a decentralized oracle, settled onchain, paid from the vault of your position's currency.
 
-You draw an angled band of two walls on the live price of any market, then take a side and open a position in $OVER, or in $USDG if you stake 100,000 $OVER or more. You shape the channel with three controls, the **angle** it leans, the **width** of the walls, and the **duration** it runs. Those set one number, the probability your channel survives, and each side's multiplier is the honest inverse of its own outcome, final the moment your entry is bound to a signed price report.
+You draw an angled band of two walls on the live price of any market, then take a side and open a position in $OVER or in $USDG. You shape the channel with three controls, the **angle** it leans, the **width** of the walls, and the **duration** it runs. Those set one number, the probability your channel survives, and each side's multiplier is the honest inverse of its own outcome, final the moment your entry is bound to a signed price report.
 
 Then it ends one of three ways: the channel holds to the end, which pays the **Survive** side in full; a wall breaks, which pays the **Breach** side and liquidates Survive; or you close early for a known amount. Whatever you collect is paid in your position's currency, from that currency's vault, and every step is an onchain event anyone can verify. The only difference with [Prediction](04-prediction.md) is whose channel you back: your own here, someone else's live one there.
 
@@ -52,7 +52,7 @@ The spread **δ** sits next to the odds, never inside them (see [Parameters and 
 
 ### Your currency
 
-You open a position in $OVER or, if you stake 100,000 $OVER or more, in $USDG. The currency belongs to the position, not to the channel: your deposit, the fees, the payout and the vault on the other side are all in that currency. The fee percentages, the royalty share and the minimum multiplier are the same in both; the position size, the fixed minimum of the open fee and the multiplier cap are set per currency (see [Parameters and limits](03-parameters-and-markets.md#terms-per-currency)).
+You open a position in $OVER or in $USDG; no stake is needed. The currency belongs to the position, not to the channel: your deposit, the fees, the payout and the vault on the other side are all in that currency. The fee percentages, the royalty share and the minimum multiplier are the same in both; the position size, the fixed minimum of the open fee and the multiplier cap are set per currency (see [Parameters and limits](03-parameters-and-markets.md#terms-per-currency)).
 
 ### Your entry is bound, not chosen
 

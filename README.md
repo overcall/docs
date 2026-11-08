@@ -25,7 +25,7 @@ You trade the **path** of a price, not just its direction. A neutral vault in yo
 | **Markets** | BTC, ETH, BNB, SOL, HYPE and VIRTUAL live; XRP, DOGE and tokenized stocks coming soon |
 | **Prices** | Chainlink Data Streams, signed reports verified onchain |
 | **Counterparty** | A neutral vault per position currency, no order book |
-| **Position currencies** | $OVER for everyone; $USDG with a stake of 100,000 $OVER or more |
+| **Position currencies** | $OVER and $USDG, for everyone, no stake needed |
 | **Token** | $OVER, [`0x6245Db7f52379bD9757c9DdcE6519768FfaB3a4F`](https://robin.etherscan.io/address/0x6245Db7f52379bD9757c9DdcE6519768FfaB3a4F) |
 | **Testnet demo** | The same app on Robinhood Chain Testnet (chain ID 46630) with free test tokens, at [testnet.overcall.io](https://testnet.overcall.io) |
 

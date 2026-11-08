@@ -19,7 +19,7 @@ Shipped and proven on the testnet before the TGE: the full engine, the terminal,
 - [x] **Live data pipeline**: the price engine and indexer keep every client on one live feed and continuously verify the offchain view against the chain
 - [x] **GraphQL API**: public reads and live subscriptions for the app and anyone building on it
 - [x] **AWS infrastructure**: production co-located with the oracle origin, deployed as code on every merge
-- [x] **Testnet faucet**: free tOVER, the testnet twin of $OVER, so anyone can trade the full system end to end, and tUSDG, the testnet twin of $USDG, for wallets with 100,000 $OVER or more staked
+- [x] **Testnet faucet**: free tOVER, the testnet twin of $OVER, so anyone can trade the full system end to end, and tUSDG, the testnet twin of $USDG
 
 ### Terminal
 
@@ -68,15 +68,15 @@ Shipped and proven on the testnet before the TGE: the full engine, the terminal,
 
 - [x] **$OVER TGE**: token generation event on Virtuals; $OVER is live on Robinhood Chain mainnet at [0x6245…3a4F](https://robin.etherscan.io/address/0x6245Db7f52379bD9757c9DdcE6519768FfaB3a4F)
 - [x] **Airdrop campaign**: launched together with the TGE; points closed Oct 19, 12:00 UTC (see [Genesis airdrop](https://docs.overcall.io/airdrop))
-- [x] **Staking on mainnet**: stake $OVER for the airdrop, and 100,000 $OVER or more to unlock $USDG positions; this first contract stays for withdrawals only once the new staking contract launches
-- [x] **$USDG positions**: positions in $USDG alongside $OVER, for wallets with 100,000 $OVER or more staked
+- [x] **Staking on mainnet**: stake $OVER for the airdrop; this first contract stays for withdrawals only once the new staking contract launches
+- [x] **$USDG positions**: positions in $USDG alongside $OVER, open to every wallet with no stake needed
 - [x] **Data Streams on mainnet**: Chainlink Data Streams integration for Robinhood mainnet
 - [x] **Partnerships**: first ecosystem partnerships and joint campaigns
 - [x] **Architecture iteration**: continuous refinement from feedback and testing
 
 ## Mainnet day
 
-- [x] **Mainnet open to everyone**: any wallet trades at [app.overcall.io](https://app.overcall.io) in $OVER, and in $USDG with a stake of 100,000 $OVER or more
+- [x] **Mainnet open to everyone**: any wallet trades at [app.overcall.io](https://app.overcall.io) in $OVER and in $USDG
 - [x] **Crypto asset class live**: six crypto markets live on mainnet: BTC, ETH, BNB, SOL, HYPE and VIRTUAL
 - [x] **Vault seeding**: of the 150M $OVER Platform vault liquidity, 50M is in the $OVER vault and 100M in the $OVER reserve; the $USDG vault has its own capital
 - [x] **Full stack on mainnet**: both products and the data pipelines live

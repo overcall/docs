@@ -16,7 +16,7 @@ Odds are where most platforms bury their edge. Overcall prices a position from o
 
 ## Request, bind, settle
 
-Opening is a request: your deposit and a signed quote (the volatility and the model version) go onchain. A $USDG request also carries an entry permit, a short-lived signature the operator gives wallets with 100,000 $OVER or more staked. The position becomes active only when the operator **binds** it to a signed price report that covers your timestamp, which sets your entry price and locks your multiplier. Nobody, neither you nor the operator, chooses the entry. From there the price is read only against the levels fixed at bind. A close submits a fresh signed report and the contract computes your mark-to-market payout; holding to the end needs **no report at all**, so an oracle outage can never trap funds. A breach is proven by the operator's signed report in its next batch, so the vault is always made whole.
+Opening is a request: your deposit and a signed quote (the volatility and the model version) go onchain. The position becomes active only when the operator **binds** it to a signed price report that covers your timestamp, which sets your entry price and locks your multiplier. Nobody, neither you nor the operator, chooses the entry. From there the price is read only against the levels fixed at bind. A close submits a fresh signed report and the contract computes your mark-to-market payout; holding to the end needs **no report at all**, so an oracle outage can never trap funds. A breach is proven by the operator's signed report in its next batch, so the vault is always made whole.
 
 ```mermaid
 flowchart TD

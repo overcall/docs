@@ -10,7 +10,7 @@ Everything on Overcall is an onchain event. This is where you verify it yourself
 | Chain ID | 4663 | 46630 |
 | Block explorer | [robin.etherscan.io](https://robin.etherscan.io) | [explorer.testnet.chain.robinhood.com](https://explorer.testnet.chain.robinhood.com) |
 | Price oracle | Chainlink Data Streams | Chainlink Data Streams |
-| Position currencies | $OVER; $USDG with 100,000 $OVER or more staked | tOVER; tUSDG with 100,000 $OVER or more staked on mainnet |
+| Position currencies | $OVER and $USDG, for everyone | tOVER and tUSDG, for everyone |
 
 ## Addresses
 

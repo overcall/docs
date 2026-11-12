@@ -48,7 +48,7 @@ flowchart TD
     n5 --> n6["Open fee goes to revenue"]
 ```
 
-25% of the profit fees from $OVER positions go to $OVER stakers (see [Staking](13-staking.md)).
+25% of the fees from $OVER positions, the open fee and the profit fee net of the creator royalty, go to $OVER stakers, and 25% of the same fees from $USDG positions is swapped into $OVER (buybacks). The early-close penalty and lost stakes stay in the vault's capital and are not shared (see [Staking](13-staking.md)).
 
 ## When trading pauses
 

@@ -4,7 +4,7 @@ Every open channel is a two-sided market. Take a view on someone else's call: ba
 
 ## Predict on any live channel
 
-Both sides are priced in the open from the channel's own survival probability. Take it in $OVER or, if you stake 100,000 $OVER or more, in $USDG: the currency belongs to your prediction, not to the channel.
+Both sides are priced in the open from the channel's own survival probability. Take it in $OVER or in $USDG, no stake needed: the currency belongs to your prediction, not to the channel.
 
 | Side | You back | What it means |
 | --- | --- | --- |

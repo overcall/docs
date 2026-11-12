@@ -10,7 +10,7 @@ Everything on Overcall is an onchain event. This is where you verify it yourself
 | Chain ID | 4663 | 46630 |
 | Block explorer | [robin.etherscan.io](https://robin.etherscan.io) | [explorer.testnet.chain.robinhood.com](https://explorer.testnet.chain.robinhood.com) |
 | Price oracle | Chainlink Data Streams | Chainlink Data Streams |
-| Position currencies | $OVER; $USDG with 100,000 $OVER or more staked | tOVER; tUSDG with 100,000 $OVER or more staked on mainnet |
+| Position currencies | $OVER and $USDG, for everyone | tOVER and tUSDG, for everyone |
 
 ## Addresses
 
@@ -23,7 +23,8 @@ Everything on Overcall is an onchain event. This is where you verify it yourself
 | Vault ($USDG) | [0x526b…C80e](https://robin.etherscan.io/address/0x526b07940694f599aA2e9DbDE30540BE004aC80e) | [0xdb94…e116](https://explorer.testnet.chain.robinhood.com/address/0xdb946CCb048bED1690701F367d220d4826f4e116) |
 | Asset and model registry | [0x91Ed…a984](https://robin.etherscan.io/address/0x91Ed7b91D670433194C9188c15E9ecaecD7Aa984) | [0x91fe…b7a8](https://explorer.testnet.chain.robinhood.com/address/0x91fe6014420cDeDCd13E351C5Ec494587529b7a8) |
 | Access registry | [0x420C…1337](https://robin.etherscan.io/address/0x420C5C8496E8BcB8c22c0330D92BE5241FB01337) | [0xEc66…8867](https://explorer.testnet.chain.robinhood.com/address/0xEc66BFf3EA4ab3cF7f2754Cad642c4b722A78867) |
-| Staking | [0x2165…b306](https://robin.etherscan.io/address/0x2165E659406F6B4F122F10A540B634252249b306) | Mainnet only |
+| Staking | To be published at launch |  |
+| Previous staking (withdrawals only) | [0x2165…b306](https://robin.etherscan.io/address/0x2165E659406F6B4F122F10A540B634252249b306) | Mainnet only |
 | Genesis airdrop claim (vesting) | [0x2170…c17f](https://robin.etherscan.io/address/0x2170135f136217fD130d1d93b6efe8038B49c17f) | Mainnet only |
 | $OVER reserve (wallet) | [0x437b…5065](https://robin.etherscan.io/address/0x437bCF676D11FFE5542BfAa842b560e431285065) | Mainnet only |
 | Price report verifier (Chainlink) | [0xcE73…36E7](https://robin.etherscan.io/address/0xcE73c8ad08CBDEaCa6078BF0627C8fe0a9a536E7) |  |

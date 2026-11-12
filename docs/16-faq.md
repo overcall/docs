@@ -6,7 +6,7 @@ The questions worth asking, answered straight.
 
 ### What can I trade?
 
-Crypto: BTC, ETH, BNB, SOL, HYPE and VIRTUAL today, with XRP and DOGE coming soon. Tokenized stocks (NVDA, AAPL, MSFT, GOOGL, AMZN, META, HOOD, TSLA) are coming soon too. Same rules and payout table across all of them. Positions are in $OVER, or in $USDG if you stake 100,000 $OVER or more. See [Markets](03-parameters-and-markets.md).
+Crypto: BTC, ETH, BNB, SOL, HYPE and VIRTUAL today, with XRP and DOGE coming soon. Tokenized stocks (NVDA, AAPL, MSFT, GOOGL, AMZN, META, HOOD, TSLA) are coming soon too. Same rules and payout table across all of them. Positions are in $OVER or $USDG, with no stake needed. See [Markets](03-parameters-and-markets.md).
 
 ### Do I win only if the market goes up?
 
@@ -28,7 +28,7 @@ You trade against a neutral onchain vault in your position's currency, like a pe
 
 ### What are the fees?
 
-Two, both published. The **open fee**, the greater of 1% of your deposit and a fixed minimum (20 $OVER, or 0.05 USDG on a $USDG position), is carved out of the deposit at open, win or lose. The **profit fee** is 10% of the profit on a winning close, and 15% of it goes to the channel's creator as a royalty when the winning position is someone else's. An early close also carries a 5% penalty on its mark-to-market value. 25% of the profit fees from $OVER positions go to $OVER stakers. There is no edge hidden in the multiplier. See [Parameters and limits](03-parameters-and-markets.md).
+Two, both published. The **open fee**, the greater of 1% of your deposit and a fixed minimum (20 $OVER, or 0.05 USDG on a $USDG position), is carved out of the deposit at open, win or lose. The **profit fee** is 10% of the profit on a winning close, and 15% of it goes to the channel's creator as a royalty when the winning position is someone else's. An early close also carries a 5% penalty on its mark-to-market value. 25% of the open and profit fees from $OVER positions, net of the royalty, go to $OVER stakers, and 25% of the same fees from $USDG positions is swapped into $OVER (buybacks). There is no edge hidden in the multiplier. See [Parameters and limits](03-parameters-and-markets.md).
 
 ### How is my multiplier set?
 
@@ -58,11 +58,11 @@ Yes. The testnet demo runs the same app and rules with free test tokens (tOVER f
 
 ### Do I have to verify my identity?
 
-No. $OVER positions need only a connected wallet; $USDG positions also need 100,000 $OVER or more staked from the same wallet. Connecting X is optional and sets how you appear (your handle and avatar on the leaderboard, feed and share cards). It never gates playing and is never custody of anything.
+No. $OVER and $USDG positions need only a connected wallet. Connecting X is optional and sets how you appear (your handle and avatar on the leaderboard, feed and share cards). It never gates playing and is never custody of anything.
 
 ### Can AI agents trade? Is there an API?
 
-Yes. Everything is a contract call plus a signed report and a public GraphQL API, so agents can trade and read without a proprietary API; a $USDG position also takes an entry permit from the same public API. Where to find the ABI and the API is on [Developers and agents](10-developers.md).
+Yes. Everything is a contract call plus a signed report and a public GraphQL API, so agents can trade and read without a proprietary API. Where to find the ABI and the API is on [Developers and agents](10-developers.md).
 
 ## $OVER, staking and the airdrop
 
@@ -72,7 +72,7 @@ $OVER is the token every product is built around, and it launched on Virtuals. F
 
 ### What do stakers earn?
 
-A share of real platform revenue: 25% of the profit fees from $OVER positions go to stakers. Claiming rewards is not live yet, and the projected APR shows on the Staking page once it can be worked out from live fees. Unstake any time, instantly. See [Staking](13-staking.md).
+A share of real platform revenue: 25% of the fees from $OVER positions, the open fee and the profit fee net of the creator royalty, paid in $OVER and streamed over 24 hours to whoever is staked meanwhile, pro rata to stake and time. Claim rewards any time or add them to your stake. Rewards come from the new staking contract only, so stakes in the old one need to move. Unstake any time, instantly. See [Staking](13-staking.md).
 
 ### When can I claim the Genesis airdrop?
 
@@ -86,19 +86,19 @@ No. Only $OVER positions of 1,000 or more counted toward the testnet activity an
 
 ### What are $USDG positions?
 
-Positions in $USDG, the second currency next to $OVER. A $USDG position takes its deposit, fees and payout in $USDG, against a separate $USDG vault, on the same channels and at the same fee percentages. They are open to wallets with 100,000 $OVER or more staked. See [Opening a position](02-channels.md).
+Positions in $USDG, the second currency next to $OVER. A $USDG position takes its deposit, fees and payout in $USDG, against a separate $USDG vault, on the same channels and at the same fee percentages. They are open to everyone, no stake needed. See [Opening a position](02-channels.md).
 
 ### Who can open $USDG positions?
 
-Wallets with at least 100,000 $OVER staked on Robinhood Chain mainnet, from the same address. A new stake is recognized within about 5 minutes. If your stake falls below 100,000 $OVER, for example after an unstake, new $USDG positions stop within about 30 minutes; positions already open run to the end. See [Staking](13-staking.md).
+Anyone: no stake is needed.
 
 ### How do I get tUSDG?
 
-tUSDG is the testnet twin of $USDG, for the testnet demo. Stake 100,000 $OVER or more on Robinhood Chain mainnet, and once your stake is recognized (within about 5 minutes), claim it from the faucet in the Balance tab of the testnet app, next to tOVER. See [Testnet demo](15-using-the-app.md#testnet-demo).
+tUSDG is the testnet twin of $USDG, for the testnet demo. Claim it from the faucet in the Balance tab of the testnet app, next to tOVER. See [Testnet demo](15-using-the-app.md#testnet-demo).
 
 ### Can I predict in $USDG?
 
-Yes. The currency belongs to your position, not the channel, so with 100,000 $OVER or more staked you can back any live channel in $OVER or $USDG, whichever currency its creator used. See [Prediction](04-prediction.md).
+Yes. The currency belongs to your position, not the channel, so you can back any live channel in $OVER or $USDG, whichever currency its creator used. See [Prediction](04-prediction.md).
 
 ### Why does a $USDG position show a lower multiplier?
 

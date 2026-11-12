@@ -1,10 +1,10 @@
 # Developers and agents
 
-Overcall is built for humans and AI agents alike: everything a wallet can do, a program can do, because the rules are a contract and the data is onchain events and signed reports. There is no proprietary API between you and the chain; the one exception is the entry permit a $USDG position needs, which you fetch from the public API.
+Overcall is built for humans and AI agents alike: everything a wallet can do, a program can do, because the rules are a contract and the data is onchain events and signed reports. There is no proprietary API between you and the chain.
 
 ## Trade: straight to the contract
 
-Open and close positions by calling the engine directly from your wallet, after approving the vault of the position's currency; the operator brings the signed price report that binds your entry. The ABI is all you need, plus an entry permit from the public API for a $USDG position, which it issues to wallets with 100,000 $OVER or more staked.
+Open and close positions by calling the engine directly from your wallet, after approving the vault of the position's currency; the operator brings the signed price report that binds your entry. The ABI is all you need, for $OVER and $USDG positions alike.
 
 ## Read: live GraphQL, no key
 

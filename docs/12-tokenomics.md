@@ -1,6 +1,6 @@
 # Tokenomics
 
-$OVER is the central economic engine of the whole Overcall suite, not a standalone token. $OVER positions settle in it, staking it earns a share of platform fees and unlocks $USDG positions from 100,000 $OVER, and channel royalties are claimed in it, so as the platform scales, utility and value accrue straight back into the token.
+$OVER is the central economic engine of the whole Overcall suite, not a standalone token. $OVER positions settle in it, staking it earns a share of platform fees, and channel royalties are claimed in it, so as the platform scales, utility and value accrue straight back into the token.
 
 ## Supply and allocation
 
@@ -59,7 +59,7 @@ Staking went live at the TGE and powered the Genesis airdrop: 1% of supply in th
 | Testnet activity | 25% |
 | Channel royalties | 25% |
 
-Points closed on Oct 19, 12:00 UTC; allocations vest daily over 15 days, with 30 days to claim from the start of vesting (see [Genesis airdrop](https://docs.overcall.io/airdrop)). On mainnet, staking earns a share of real protocol revenue: 25% of the profit fees from $OVER positions go to stakers, and a stake of 100,000 $OVER or more also unlocks $USDG positions. Full detail is on [Staking](13-staking.md).
+Points closed on Oct 19, 12:00 UTC; allocations vest daily over 15 days, with 30 days to claim from the start of vesting (see [Genesis airdrop](https://docs.overcall.io/airdrop)). On mainnet, staking earns a share of real protocol revenue: 25% of the fees from $OVER positions go to stakers, paid in $OVER. Full detail is on [Staking](13-staking.md).
 
 <sub>Source: [docs.overcall.io/tokenomics](https://docs.overcall.io/tokenomics)</sub>
 

@@ -7,7 +7,7 @@ The Overcall app is at [https://app.overcall.io](https://app.overcall.io). This 
 From a connected wallet to your first payout:
 
 1. **Connect a wallet.** Overcall is open to everyone, with no account and no invite code. The app asks your wallet to switch to **Robinhood Chain** mainnet (chain ID 4663) and to add the network if it is not there yet. Keep a little ETH on Robinhood Chain for gas (see [Wallet and network](#wallet-and-network)).
-2. **Get $OVER.** You take positions with the **$OVER** in your wallet. Buy it on Uniswap on Robinhood Chain, where you swap ETH for $OVER. If you stake 100,000 $OVER or more, you can also open positions in $USDG (see [Staking](13-staking.md)).
+2. **Get $OVER.** You take positions with the **$OVER** in your wallet. Buy it on Uniswap on Robinhood Chain, where you swap ETH for $OVER. You can also open positions in $USDG, with no stake needed.
 3. **Pick a market and draw.** Choose an open market, then drag on the chart to set your angle, width and duration. The ticket prices both sides of your channel before you commit (see [The terminal](#the-terminal)).
 4. **Take a side, open.** Back your channel to **Survive** (it holds every wall to the end) or **Breach** (a wall breaks first). Your entry is bound to a signed price report, so nobody picks your entry price; your multiplier is final when it binds.
 5. **Close, get paid.** Survive collects the full multiplier if the channel holds to the end, and is liquidated at 0 if a wall is touched; that same touch pays Breach in full. Either side can close early for a known amount, and the vault pays you the instant it resolves, unless trading is paused for a review: then a win pays your stake at once and holds the rest for the review.
@@ -23,7 +23,7 @@ Where you draw and trade: a live price chart, the channel you shape on it, and a
 - **The chart.** Japanese candles by default, or a line. You draw your channel directly on it, dragging the tilt grip to set the **angle**, the wall grips to set the **width**, and the end grip to set the **duration**.
 - **Focus and Manual.** **Focus** auto-frames and tracks your channel so the drawn shape always stays in view (the default on mobile). **Manual** hands you the wheel: free pan, zoom, scrollback, a price-axis drag (the default on desktop) and a full drawing toolkit, whose drawings save per market and sync to your wallet.
 - **Market rail.** Every market runs down the left, grouped into crypto and tokenized stocks, each with a live price, 24h change and a sparkline (see [Markets](03-parameters-and-markets.md)).
-- **The ticket.** The three sliders (angle, width, duration), the side you take (**Survive** or **Breach**, each with its own live multiplier), your position size, and a payout card that shows the estimated **multiplier**, the **full payout** and the **fees** before you open. Click the unit next to the position size to switch between $OVER and $USDG; $USDG needs a stake of 100,000 $OVER or more.
+- **The ticket.** The three sliders (angle, width, duration), the side you take (**Survive** or **Breach**, each with its own live multiplier), your position size, and a payout card that shows the estimated **multiplier**, the **full payout** and the **fees** before you open. Click the unit next to the position size to switch between $OVER and $USDG.
 
 Full guide: [docs.overcall.io/terminal](https://docs.overcall.io/terminal)
 
@@ -42,7 +42,7 @@ Everything about your account and the platform in one place, opened from the gri
 - **Royalties.** Your royalty is **15% of the profit fee of every winning prediction on your channels**, in $OVER and $USDG. It becomes claimable once the channel has ended, every position on it, in either currency, has settled, and every win on it held for review is decided. **Claim all** claims it in one go; royalty from $USDG predictions is swapped into $OVER when you claim it.
 - **Platform metrics.** The whole venue at a glance: KPIs with sparklines (players, positions, average multiplier, most-popular market), the **vault** section (balance, capital, free capital, the loss limit left, vault revenue, volume, open exposure, positions settled), the biggest **top wins**, the **top players**, and a live **feed**.
 - **Leaderboard.** Ranks players on the **$OVER board** by **$OVER P&L**: your realized $OVER positions plus the royalty you claimed from $OVER predictions on your channels. Where $USDG positions are offered, its currency filter picks a separate **$USDG board**, and the two are never added together.
-- **Staking & Airdrop.** Stake $OVER there to earn a share of platform fees, and 100,000 $OVER or more to unlock $USDG positions (see [Staking](13-staking.md)). Your Genesis airdrop allocation, its vesting and the Claim button live on the same tab (see [Genesis airdrop](https://docs.overcall.io/airdrop)).
+- **Staking & Airdrop.** Stake $OVER there to earn a share of platform fees (see [Staking](13-staking.md)). Your Genesis airdrop allocation, its vesting and the Claim button live on the same tab (see [Genesis airdrop](https://docs.overcall.io/airdrop)).
 
 Full guide: [docs.overcall.io/dashboard](https://docs.overcall.io/dashboard)
 
@@ -76,7 +76,7 @@ Overcall runs on **Robinhood Chain** mainnet and is open to everyone: no account
 | Gas | Every transaction, from opening a position to staking or claiming, costs a small amount of **ETH on Robinhood Chain**, the network's gas. Keep a little ETH in the same wallet as your $OVER; the app tells you when it runs low. |
 | $OVER | Token address `0x6245Db7f52379bD9757c9DdcE6519768FfaB3a4F`. $OVER trades on **Uniswap on Robinhood Chain**, you swap ETH for $OVER ([open the swap on Uniswap](https://app.uniswap.org/swap?chain=robinhood&inputCurrency=NATIVE&outputCurrency=0x6245Db7f52379bD9757c9DdcE6519768FfaB3a4F)). The app's **Buy $OVER** link opens that swap in a new tab. |
 | $USDG | Global Dollar on Robinhood Chain, at `0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168`. |
-| $USDG access | $OVER positions are open to everyone. Positions in $USDG need **a stake of at least 100,000 $OVER** on Robinhood Chain mainnet, from the same wallet: stake in the Staking & Airdrop tab of the dashboard, and your stake is recognized within about 5 minutes. If it falls below 100,000 $OVER, for example after an unstake, new $USDG positions stop within about 30 minutes, and positions already open run to the end (see [Staking](13-staking.md)). |
+| $USDG access | $OVER and $USDG positions are open to everyone; no stake is needed. |
 
 > [!WARNING]
 > Always check the token address before you swap. A look-alike token shares the start and the end of the $USDG address, so always check the whole address.
@@ -104,7 +104,7 @@ To start, open the testnet app and connect a wallet: it asks your wallet to swit
 | --- | --- |
 | Gas | Test ETH, free from the [Robinhood Chain testnet faucet](https://faucet.testnet.chain.robinhood.com/). |
 | tOVER | The testnet twin of $OVER. Claim it from the faucet in the Balance tab of the app, and top up when it refills. |
-| tUSDG | The testnet twin of $USDG. It comes from the same faucet for wallets with 100,000 $OVER or more staked on mainnet. |
+| tUSDG | The testnet twin of $USDG. It comes from the same faucet, for every wallet. |
 | Multiplier cap | tOVER positions are capped at 50× instead of the 25× mainnet cap; every other term matches mainnet (see [Parameters and limits](03-parameters-and-markets.md)). |
 | Records | Testnet positions, channels and leaderboards are separate from mainnet. |
 | Contract addresses | Listed beside the mainnet ones on [Contracts and addresses](09-contracts.md). |
